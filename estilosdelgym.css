@@ -1,0 +1,86 @@
+.herotext {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    /*Agregarle sombra al texto(transforma tu vida...)*/
+}
+
+h2 span {
+    color: #9370DB;
+}
+
+.border-lavanda {
+    border: 2px solid #9370DB;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d4a5ff;
+}
+
+
+/* Membresías: Plan Básico, VIP, Premium */
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #9370DB;
+}
+
+#comparativa h2 {
+    font-weight: bold;
+}
+
+
+/* Íconos dentro de los encabezados */
+#comparativa th i {
+    margin-right: 5px;
+}
+
+/* Bordes para celdas */
+#comparativa td,#comparativa th {
+    border: 1px solid #7f4ca5;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+
+.encabezado-tabla th {
+    background-color: #f0e2f8;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Instalaciones */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Eleva la imagen*/
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+/* Testimonios */
+.card-footer h5 {
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer a:hover {
+    color: #ffd6ff;
+}
